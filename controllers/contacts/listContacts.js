@@ -1,7 +1,6 @@
 const fs = require("fs").promises;
 
 const contactsPath = require("../../db/contactsPath");
-console.log(contactsPath);
 
 //listContacts - получить список контактов.
 const listContacts = async () => {
